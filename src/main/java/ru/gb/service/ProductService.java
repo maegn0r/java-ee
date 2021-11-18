@@ -8,16 +8,16 @@ import java.util.List;
 public class ProductService {
     public List<Product> createNewProduct() {
         List<Product> products = Arrays.asList(
-                new Product("Говядина", 1.1, "мясо охлаждённое"),
-                new Product("Свинина", 3.2, "мясо охлаждённое"),
-                new Product("Курица", 2.5, "мясо охлаждённое"),
-                new Product("Баранина", 1.2, "мясо охлаждённое"),
-                new Product("Сосиски", 1.7, "полуфабрикаты"),
-                new Product("Пельмени", 3.5, "полуфабрикаты"),
-                new Product("Наггетсы", 1, "полуфабрикаты"),
-                new Product("Брокколи", 4, "замороженные овощи"),
-                new Product("Фасоль", 2.5, "замороженные овощи"),
-                new Product("Цветная капуста", 0.8, "замороженные овощи")
+                new Product(1L, "Говядина", 450.0),
+                new Product(2L, "Свинина", 350.0),
+                new Product(3L, "Курица", 250.00),
+                new Product(4L, "Баранина", 490.00),
+                new Product(5L, "Сосиски", 510.00),
+                new Product(6L, "Пельмени", 650.00),
+                new Product(7L, "Наггетсы", 345.00),
+                new Product(8L, "Брокколи", 189.00),
+                new Product(9L, "Фасоль", 135.00),
+                new Product(10L, "Цветная капуста", 90.50)
         );
         return products;
     }

@@ -9,8 +9,8 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class Product {
-    private String name;
-    private double weight;
-    private String type;
+    private long id;
+    private String title;
+    private double cost;
 
 }

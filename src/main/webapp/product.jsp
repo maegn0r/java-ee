@@ -14,9 +14,9 @@
 <h2>Продукты</h2>
 <ul>
     <% for (Product product : (List<Product>) (request.getAttribute("products"))) { %>
-    <li><b><%=product.getName()%>
+    <li><b>Id: <%=product.getId()%>
     </b></li>
-    <li>вес: <%=product.getWeight()%> кг.; тип: <%=product.getType()%>
+    <li>название: <%=product.getTitle()%>; цена: <%=product.getCost()%>
     </li>
     <li><br></li>
     <% } %>
